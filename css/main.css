@@ -1,8 +1,149 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  body {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  li,
+  p {
+    padding: 0;
+    margin: 0;
+  }
+
 :root {
     --accent-color : #607CE6;
     --dark-color: #333333;
     --third-color: #D9D9D9;
     --light-gray-color: #F5F5F5;
-    --gray-color: # 888888;
+    --gray-color: #888888;
 --light-color: #FFFFFF;
 }
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: var(--light-color);
+     font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* .source-sans-3-<uniquifier> {
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+#header {
+}
+.container {
+    width: 1180px;
+margin: 0 auto;
+} 
+.header__container {
+height: 113px;
+padding-top: 32px;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.logo {
+    width: 180px;
+    height: 38px;
+}
+.header__logo {
+    padding-top: 1px;
+}
+.logo__img {
+}
+.top__contacts {
+    display: flex;
+}
+.header__email {
+    text-align: right;
+    margin-right: 43px;
+}
+.second-text {
+    font-weight: normal;
+font-size: 14px;
+line-height: 16.8px;
+color: var(--dark-color);
+}
+.email__text {
+    
+}
+.email__data {
+    font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+color: var(--accent-color);
+}
+.header__phone {
+    text-align: right;
+}
+.header__line {
+    width: 1180px;
+min-height: 1px;
+background-color: var(--gray-color);
+}
+.header__bottom {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+  
+  
+}
+.menu ul {
+      display: flex;
+    justify-content: space-between;
+      list-style: none;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 0;
+}
+.menu li {
+    margin-right: 44px;
+}
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+.header__call {
+    color: var(--accent-color);
+    display: flex;
+}
+.call__img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.call__h6 {
+    font-weight: normal;
+font-size: 16px;
+line-height: 19.2px;
+text-transform: uppercase;
+margin: 0;
+}
+
