@@ -49,6 +49,8 @@ body {
 } */
 
 #header {
+    min-height: 113px;
+   margin-bottom: 80px;
 }
 .container {
     width: 1180px;
@@ -106,10 +108,10 @@ background-color: var(--gray-color);
     padding-top: 16px;
     display: flex;
     justify-content: space-between;
+
 }
 .menu {
-  
-  
+
 }
 .menu ul {
       display: flex;
@@ -146,4 +148,33 @@ line-height: 19.2px;
 text-transform: uppercase;
 margin: 0;
 }
+
+.hero {
+padding-top: 32px;
+
+}
+.hero__top {
+    margin-bottom: 32px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    color: var(--dark-color);
+}
+.main-title {
+    font-weight: 700;
+font-size: 60px;
+line-height: 72px;
+}
+.hero__p {
+    font-weight: 400;
+font-size: 16px;
+line-height: 19.2px;
+max-width: 379px;
+padding-top: 25px;
+}
+.hero__image {
+max-width: 100%;
+height: auto;
+}
+
 
