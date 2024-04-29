@@ -16,7 +16,7 @@
     <title>Пионер</title>
   </head>
   <body>
-    <header class="header" id="header">
+     <header class="header" id="header">
       <div class="container header__container">
         <div class="header__top">
           <div class="logo header__logo">
@@ -34,39 +34,77 @@
           </div>
         </div>
         <div class="header__line"></div>
-        <div class="header__bottom">
-          <nav class="menu">
-            <ul>
-              <li><a href="#">Главная</a></li>
-              <li><a href="#">О предприятии</a></li>
-              <li><a href="#">Новости</a></li>
-              <li><a href="#">Продукция</a></li>
-              <li><a href="#">Услуги</a></li>
-              <li><a href="#">Поддержка</a></li>
-              <li><a href="#">География поставок</a></li>
-              <li><a href="#">Контакты</a></li>
+         <div class="header__bottom">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#">Главная</a></li>
+              <li class="nav__item"><a href="#">О предприятии</a></li>
+              <li class="nav__item"><a href="#">Новости</a></li>
+              <li class="nav__item"><a href="#">Продукция</a></li>
+              <li class="nav__item"><a href="#">Услуги</a></li>
+              <li class="nav__item"><a href="#">Поддержка</a></li>
+              <li class="nav__item"><a href="#">География поставок</a></li>
+              <li class="nav__item"><a href="#">Контакты</a></li>
             </ul>
           </nav>
           <div class="header__call">
             <img src="img/phone.svg" alt="phone" class="call__img" />
             <h6 class="call__h6">Перезвоните мне</h6>
           </div>
-        </div>
+        </div> 
       </div>
     </header>
-   <main class="main">
-<section class="hero" id="hero">
-  <div class="container">
-    <div class="hero__top">
-      <h1 class="main-title">Российский завод силовых машин</h1>
-      <p class="hero__p">научно-производственное предприятие, занимающееся разработкой и производством силовых машин.</p>
-    </div>
-    <div class="hero__image">
-      <img src="img/hero-image.jpg" alt="a big factory">
-    </div>
-  </div>
-</section>
-   </main> 
-
+    <main class="main">
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="hero__top">
+            <h1 class="main-title">Российский завод силовых машин</h1>
+            <p class="hero__p">
+              научно-производственное предприятие, занимающееся разработкой и
+              производством силовых машин.
+            </p>
+          </div>
+     
+            <img src="img/hero-image.jpg" alt="a big factory" class="hero__image" />
+  
+        </div>
+      </section>
+       <section class="about" id="about">
+        <div class="container">
+          <h2 class="text-h2" id="second-title">О предприятии</h2>
+          <div class="about__text">
+            <div class="about__left">
+              <p class="about__p">
+                За 20 лет развития в структуре завода сформирован мощный
+                производственный потенциал, научно-технический центр,
+                испытательная лаборатория, современная база, учебный центр
+                и широкая сеть региональных и международных представительств
+                в Российской Федерации, Республике Беларусь, Узбекистане
+                и Казахстане.
+              </p>
+              <p class="about__p">
+                Ежегодно НПП «ПИОНЕР» реализует несколько проектов
+                по модернизации серийных и разработке новых приборов, призванные
+                в наибольшей степени удовлетворять возрастающие требования наших
+                заказчиков.
+              </p>
+            </div>
+            <div class="about__right">
+              <p class="about__p">
+                В номенклатуре выпускаемой НПП «ПИОНЕР» продукции найдется все,
+                что необходимо для успешного решения задачи автоматизации
+                технологических процессов на любом предприятии. Все средства
+                измерения производства «ПИОНЕР» внесены в Государственный реестр
+                СИ и имеют необходимые разрешительные документы.
+              </p>
+            </div>
+          </div>
+          <div class="about__images"> 
+              <img src="img/welding.jpg" alt="welding" class="about-img" />    
+             <img src="img/car-plant.jpg" alt="car-plant" class="about-img" />
+          </div>
+        </div>
+      </section> 
+    </main>
   </body>
 </html>
