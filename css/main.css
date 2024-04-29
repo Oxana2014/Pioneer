@@ -220,6 +220,7 @@ padding-right: 15px;
 }
 
 .products {
+  margin-bottom: 80px;
 }
 .products__h2{
     margin-bottom: 32px;
@@ -265,5 +266,12 @@ margin-right: 8px;
     display:inline;
     width: 6px;
     height: 11px;
+}
+.map {
+}
+.map__h2 {
+  margin-bottom: 32px;
+}
+.map__img {
 }
 
