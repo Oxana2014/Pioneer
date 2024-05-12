@@ -122,9 +122,13 @@ body {
   gap: 44px;
 }
 
-.nav__item a {
+.nav__link {
   text-decoration: none;
   color: var(--dark-color);
+  transition: color 0.3s ease-in-out;
+}
+.nav__link:hover {
+  color: var(--accent-color);
 }
 .header__call {
   color: var(--accent-color);
@@ -261,6 +265,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+  text-decoration: none;
   margin-right: 8px;
 }
 .product__link_arrow {
@@ -347,7 +352,7 @@ gap: 20px;
 }
 .footer__links_left {
 }
-a.footer__link {
+.footer__link {
   color: var(--light-color);
   text-decoration: none;
   font-weight: normal;
@@ -355,6 +360,10 @@ a.footer__link {
   line-height: 19.2px;
   display: block;
   margin-bottom: 24px;
+  transition: color 0.3s ease-in-out;
+}
+.footer__link:hover {
+  color: var(--third-color);
 }
 .footer__links_center {
 }
