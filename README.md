@@ -4,7 +4,8 @@
 
 Верстка HTML, CSS с макета Figma.
 
-Готовый сайт 
+## TODO
+* Добавить адаптив
 
 За макет спасибо https://verstaem.online/
 
