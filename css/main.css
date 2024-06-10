@@ -132,21 +132,23 @@ body {
 }
 .header__call {
   color: var(--accent-color);
-  display: flex;
+display: flex;
     font-weight: normal;
   font-size: 16px;
   line-height: 19.2px;
   text-transform: uppercase;
   margin: 0;
   border:none;
+  gap: 5px;
 }
-.header__call:before {
-  content: url(../img/phone.svg);
+.header__call:hover, .header__call:active {
+  color: var(--gray-color);
+}
+.header__call svg {
   width: 16px;
   height: 16px;
-  margin-right: 5px;
+  fill: currentColor;
 }
-
 
 @media screen and (max-width: 1200px) {
   .nav__list {
